@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * my function print a massage using printf
+ * main - start point
+ * Return: 0 if (success)
  */
 int main(void)
 {
