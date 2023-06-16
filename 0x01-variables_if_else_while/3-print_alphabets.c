@@ -13,7 +13,7 @@ int main(void)
 	j = 97;
 	while (j < 123)
 	{
-		putcahr(j);
+		putchar(j);
 		j++;
 	}
 	while (i < 100)
