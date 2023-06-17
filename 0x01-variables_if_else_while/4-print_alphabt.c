@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-        int j;
+	int i;
 
-        j = 97;
-        while (j < 123)
-        {
-		if (j != 101 &&	j != 113)
-			putchar(j);
-                j++;
-        }
-        putchar(10);
-        return (0);
+	i = 97;
+	while (i < 123)
+	{
+		if (i != 101 && i != 113)
+			putchar(i);
+		i++;
+	}
+	putchar(10);
+	return (0);
 }
