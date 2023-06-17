@@ -10,11 +10,8 @@ int main(void)
         j = 97;
         while (j < 123)
         {
-		if (j == 101 || j == 113)
-		{
-			continue;
-		}
-                putchar(j);
+		if (j != 101 &&	j == 113)
+			putchar(i);
                 j++;
         }
         putchar(10);
