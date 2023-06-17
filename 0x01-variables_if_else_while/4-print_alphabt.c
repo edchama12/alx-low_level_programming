@@ -8,8 +8,12 @@ int main(void)
         int j;
 
         j = 97;
-        while (j < 123 && j == 101 && j == 113)
+        while (j < 123)
         {
+		if (j == 101 || j == 113)
+		{
+			continue;
+		}
                 putchar(j);
                 j++;
         }
