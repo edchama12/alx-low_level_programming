@@ -11,7 +11,7 @@ int main(void)
         while (j < 123)
         {
 		if (j != 101 &&	j == 113)
-			putchar(i);
+			putchar(j);
                 j++;
         }
         putchar(10);
