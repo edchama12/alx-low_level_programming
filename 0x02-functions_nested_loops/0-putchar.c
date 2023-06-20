@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - start point
  * Return: 0 if sucess
  */
