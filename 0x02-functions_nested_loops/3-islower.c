@@ -5,8 +5,9 @@
  * int_islower - return 1 if the caracter in argument is in lower case
  */
 int _islower(int c)
-{
-	int res = islower(c);
+{	
+	char l = fgetc(c);
+	int res = islower(l);
 
 	if (res == 0)
 	{
