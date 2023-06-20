@@ -3,7 +3,7 @@
  * main - start point
  * Return: 0 if sucess
  */
-void print_alphabet(void)
+void print_alphabet()
 {
 	int i;
 
