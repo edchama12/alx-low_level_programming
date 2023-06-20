@@ -6,7 +6,7 @@
  * @int; the second number
  * Return; the result of the sum
  */
-int add(int, int)
+int add(int a, int b)
 {
 	return (a + b);
 }
