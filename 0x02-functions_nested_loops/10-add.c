@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  * add - make sum of two numbers
  * @int: the first number
