@@ -1,20 +1,20 @@
 #include <stdio.h>
 /**
- * main - strat point fibonacci numbers 
- * Return: 0 if sucess
+ * main - start point
+ * return: 0 if succes
  */
 int main(void)
 {
 	int cpt;
-	int n1, n2, fin;
+	long int n1, n2, fin;
 
 	n1 = 1;
 	n2 = 2;
-	printf("%d, %d", n1, n2);
+	printf("%ld, %ld", n1, n2);
 	for (cpt = 0; cpt < 48; cpt++)
 	{
 		fin = n1 + n2;
-		printf(", %d", fin);
+		printf(", %ld", fin);
 		n1 = n2;
 		n2 = fin;
 	}
