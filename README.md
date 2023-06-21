@@ -1,1 +1,1 @@
-Project about C programming language
+functions and loops in C
