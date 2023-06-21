@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * print_sign - write the sign of a number
+ * @n: intger argument
+ * Return: return 1 if greater than 0 return 0 if is zero return 61 if less
+ */
+int print_sign(int n)
+{
+	if (n > 0)
+	{
+		putchar('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		putchar('0');
+		return (0);
+	}
+	else
+	{
+		putchar('-');
+		return (-1);
+	}
+}
