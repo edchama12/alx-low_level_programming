@@ -5,13 +5,12 @@
  */
 int main(void)
 {
-	int cpt;
 	long int n1, S, n2, fin;
 
 	n1 = 1;
 	n2 = 2;
 	S = 0;
-	for (cpt = 0; cpt <= 4000000; cpt++)
+	for (fin <= 4000000)
 	{
 		fin = n1 + n2;
 		n1 = n2;
