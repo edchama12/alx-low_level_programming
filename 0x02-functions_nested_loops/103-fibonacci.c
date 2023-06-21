@@ -10,6 +10,7 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 	S = 0;
+	fin = 0;
 	for (fin <= 4000000)
 	{
 		fin = n1 + n2;
