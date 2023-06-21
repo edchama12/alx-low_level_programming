@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - start point
- * return: 0 if succes
+ * Return: 0 if succes
  */
 int main(void)
 {
