@@ -19,6 +19,6 @@ int main(void)
 		n1 = n2;
 		n2 = fin;
 	}
-	putchar(10);
+	printf("%ld\n", S);
 	return (0);
 }
