@@ -11,7 +11,7 @@ int main(void)
 	for (i = 1; i < 1024; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
-			S = S +i;
+			S = S + i;
 	}
 	printf("%d\n", S);
 	return (0);
