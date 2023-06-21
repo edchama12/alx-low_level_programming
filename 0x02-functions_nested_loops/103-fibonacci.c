@@ -8,16 +8,16 @@ int main(void)
 	int cpt;
 	long int n1, S, n2, fin;
 
-	n1 = 2;
-	n2 = 8;
+	n1 = 1;
+	n2 = 2;
 	S = 0;
-	for (cpt = 0; cpt < 4000000; cpt++)
+	for (cpt = 0; cpt <= 4000000; cpt++)
 	{
 		fin = n1 + n2;
-		if (fin % 2 == 0)
-			S = S + fin;
 		n1 = n2;
 		n2 = fin;
+		if (n1 % 2 == 0)
+			S = S + n1;
 	}
 	printf("%ld\n", S);
 	return (0);
