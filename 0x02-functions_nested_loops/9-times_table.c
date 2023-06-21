@@ -15,7 +15,7 @@ void times_table(void)
 			if (j != 9 && r >= 10 && r <= 99)
 				printf("%d, ", i * j);
 			else if (j == 9)
-				printf("%d\n", i * j);
+				printf(" %d\n", i * j);
 			else
 				printf("%d,  ", i * j);
 		}
