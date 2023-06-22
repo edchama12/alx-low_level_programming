@@ -23,6 +23,5 @@ void print_square(int size)
 			}
 			putchar(10);
 		}
-		putchar(10);
 	}
 }
