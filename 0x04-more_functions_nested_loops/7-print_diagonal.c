@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_diagonal - write diagonal 
+ * print_diagonal - write diagonal
  * @n: intger argument
  */
 void print_diagonal(int n)
@@ -10,7 +10,7 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 	{
-		putchar(10);
+		_putchar(10);
 	}
 	else
 	{
@@ -18,11 +18,10 @@ void print_diagonal(int n)
 		{
 			for (j = 1; j <= i; j++)
 			{
-				putchar(' ');
+				_putchar(' ');
 			}
-			putchar('\\');
-			putchar(10);
+			_putchar('\\');
+			_putchar(10);
 		}
 	}
 }
-		
