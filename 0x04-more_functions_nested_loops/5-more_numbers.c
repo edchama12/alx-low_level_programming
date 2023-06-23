@@ -10,6 +10,12 @@ void more_numbers(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 48; j <= 57; j++)
+		for (j = 0; j <= 14; j++)
 		{
-			putchar(j);
+			if (i > 9)
+				putchar((j / 10) + '0');
+			putchar((j % 10) + '0');
+		}
+		putchar(10);
+	}
+}
