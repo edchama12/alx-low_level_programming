@@ -21,10 +21,8 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		else
-		{
+		else	
 			printf("%d ", i);
-		}
 	}
 	putchar(10);
 	return (0);
