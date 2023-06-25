@@ -26,6 +26,6 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	printf("\n");
+	putchar(10);
 	return (0);
 }
