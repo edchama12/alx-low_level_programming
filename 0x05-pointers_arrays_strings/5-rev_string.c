@@ -10,6 +10,7 @@ void rev_string(char *s)
 	int l, i, cpt;
 	char *c;
 
+	*c = "";
 	strcpy(c, s);
 	l = strlen(s);
 	cpt = 0;
