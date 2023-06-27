@@ -1,1 +1,1 @@
-functions and loops in C
+pointers arrays string tasks
