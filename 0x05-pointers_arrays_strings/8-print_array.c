@@ -14,10 +14,10 @@ void print_array(int *a, int n)
 	{
 		if (i == n - 1)
 		{
-			printf("%i, ", a[i]);
+			printf("%d", a[i]);
 			continue;
 		}
-		printf("%i, ", a[i]);
+		printf("%d, ", a[i]);
 	}
 	putchar(10);
 }
