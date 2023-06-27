@@ -8,13 +8,5 @@
  */
 int _strlen(char *s)
 {
-	int cpt;
-
-	while (*s != '\0')
-	{
-		cpt++;
-		*s++;
-	}
-	return (cpt);
+	return (strlen(s));
 }
-
