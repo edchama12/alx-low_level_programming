@@ -1,0 +1,1 @@
+mora array and pointer
