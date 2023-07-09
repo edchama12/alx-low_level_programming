@@ -1,1 +1,1 @@
-pointers arrays string tasks
+mora array and pointer
