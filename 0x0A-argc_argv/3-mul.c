@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("%d\n", ((long int) argv[1] * (long int)  argv[2]));
+		printf("%ld\n", ((long int) argv[1] * (long int)  argv[2]));
 		return (0);
 	}
 }
