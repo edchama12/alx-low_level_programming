@@ -25,6 +25,6 @@ void print_dog(struct dog *d)
 	}
 	else
 	{
-		printf("nothing\n");
+		return;
 	}
 }
