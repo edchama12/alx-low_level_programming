@@ -2,14 +2,14 @@
 #include "string.h"
 #include <stdio.h>
 /**
- * _strlen_recursion - function that returns the length of a string
- * @s:string 
- * Return:lenght
+ * _strlen_recursion -  returns the length of a string
+ * @s: string
+ * Return: intger
  */
 int _strlen_recursion(char *s)
 {
-	int l;
+	int L;
 
-	l = strlen(s);
-	return (l);
+	L = strlen(s);
+	return (L);
 }
